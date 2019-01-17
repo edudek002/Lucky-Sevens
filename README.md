@@ -11,4 +11,8 @@ If the sum of the 2 dice is equal to 7, the player wins $4 otherwise, the player
 
 4. The program ends when the user loses all the money, then the Results table is displayed.
 
+You can find the game on
+[Github](https://edudek002.github.io/Lucky-Sevens/)
+
+
 ![Game Picure](./gamePicture.png)
