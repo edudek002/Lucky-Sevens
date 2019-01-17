@@ -70,7 +70,7 @@ function playLuckySeven() {
         populateTable();
     });
     //alow user time to read the Results table before giving an option to play the game again
-    setTimeout(startAgain, 5000);                
+    setTimeout(startAgain, 8000);                
 }
 
 //============= function that displays second page when the user choses to quit the game ===========
