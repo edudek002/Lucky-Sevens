@@ -1,0 +1,45 @@
+body {
+    background: #D9CFC1;
+    font-family: 'Arial';
+}
+header {
+    height: 300px;
+}
+.container {
+    margin-bottom: 120px;
+}
+#play {
+    background-color: #495867;
+    color: #D9CFC1;
+    width: 100px;
+    height: 50px;
+    font-size: 1.5em;
+    margin-top: 0px;
+}
+#myBet {
+    background-color: transparent;
+    color:  #BA3F1D;
+    width: 100px;
+    height: 50px;
+    font-size: 2.0em;
+    font-weight: bold;
+    padding-top: 0px;    
+    border: solid 3px  #495867;
+}
+.card {
+    background: #D9CFC1; 
+}
+#results-table{
+    font-size: 1.5em;
+    /* border: 2px solid  #495867; */
+    text-align: left;
+}
+#tableTitle, caption {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+}
+tr:nth-child(even) {
+    background-color: #e4c3ad; 
+}

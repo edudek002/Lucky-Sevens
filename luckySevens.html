@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<!--
+    Name: Edyta Dudek 
+    Date Created: 1-15-19 
+    Most recent revision: v1
+-->
+<html lang="en"> 
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Lucky Sevens</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        	
+    </head> 
+    
+    <body onload="myFunction()">
+        <header>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1 class="text-center">Lucky Sevens</h1>    
+        </header>
+
+        <div class="container" id="Page1">
+            <div class="row text-center">
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-6 card">
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>Starting Bet:</h2>
+                        </div>
+                        <div class="col-md-6">
+                            <button type="button" id="myBet" class="btn btn-secondary">$000</button>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col">
+                            <button type="button" id="play" class="btn btn-secondary">Play</button>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-6 card">
+                    <br>
+                    <!--Table will populate here-->
+                    <table id="results-table">
+                        <caption id="tableTitle"></caption>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div><!--End of container-->
+
+        <!--========================================== Second page =================================-->
+        <div id="Page1a" style="display:none">
+            <div class="row">
+                <div class="column card-body text-center">
+                    <h2>Thank you for playing the game!</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+        <!--Function that diplays information that HTML was loaded-->
+        <script>
+            function myFunction() {
+              alert("Page is loaded");
+            }
+        </script> 	 
+    </body> 
+</html>
